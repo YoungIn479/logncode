@@ -6,7 +6,7 @@ body{
 }
 
 .header{
-	background-image:url("https://www.destguides.com/dynamic-files/itinerary/451/background-image.jpg");
+	background-image:url("https://www.crawshaygallery.com/portfolio2019/New-York-Skyline-Black-White-cropped.jpg");
 	width: 100%;
 	color: white;
 	text-align: center;
@@ -16,10 +16,10 @@ body{
 	font-size: 60px;
 }
 .header p{
-	font-size: 45;
+	font-size: 55;
 }
 .menu{
-	background-color: #3C9BFA;	
+	background-color: #163589;	
 	overflow: hidden;
 }
 
@@ -35,18 +35,22 @@ body{
 }
 
 .menu a:hover{
-	background-color: #163589;
+	background-color: #3C9BFA;
 }
 
 .main{
 	width: 100%;
+	height: 600px;
+	background-color: #26292B; 
+	color: white;
 }
 
 .side{
 	float: left;
 	width: 30%;
-	background-color: lightgray;
+	background-color: #26292B;
 	padding: 20px;
+	height: 600px;
 }
 
 .content{
@@ -62,4 +66,27 @@ body{
 	width: 100%;
 	border-radius: 20px;
 
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	height: 200px;
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+.font-sansserif{
+	font-family: 'Raleway', sans-serif;
+}
+
+.white{
+	color: white;
+}
+
+.card_shadow{
+	box-shadow: 11px 1px 10px #464B4F;
 }
