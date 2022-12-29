@@ -1,34 +1,65 @@
+body{
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+
 .header{
-	background-color: lightgray;
+	background-image:url("https://www.destguides.com/dynamic-files/itinerary/451/background-image.jpg");
+	width: 100%;
+	color: white;
 	text-align: center;
-	padding: 30px;
-
+	padding: 100px;
+}
+.header h1{
+	font-size: 60px;
+}
+.header p{
+	font-size: 45;
+}
+.menu{
+	background-color: #3C9BFA;	
+	overflow: hidden;
 }
 
-.footer{
+.menu a{
+	float: left;
+	padding: 20px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.menu a.right{
+	float:right;
+}
+
+.menu a:hover{
+	background-color: #163589;
+}
+
+.main{
+	width: 100%;
+}
+
+.side{
+	float: left;
+	width: 30%;
 	background-color: lightgray;
-	text-align: center;
-	padding: 15px;
+	padding: 20px;
 }
 
-.column{
-	float:left;
-	width: 33.33%;
-	height: 300px;
-}
-@media(max-width: 600px){
-	.column{
-		width: 100%;
-	}
-}
-.bg1{
-	background-color: blue; 
+.content{
+	float: left;
+	width: 70%;
+	padding: 20px
 }
 
-.bg2{
-	background-color: red; 
+.content li{
 }
 
-.bg3{
-	background-color: green; 
+.myimg{
+	width: 100%;
+	border-radius: 20px;
+
 }
